@@ -7,7 +7,7 @@ class SideInfo extends Component {
   render() {
     return (
       <div className="SideInfo">
-        <UserInfo/>
+        <UserInfo user={this.props.user}/>
         <UserMenu/>
       </div>
     );

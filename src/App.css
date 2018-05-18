@@ -22,7 +22,7 @@ html,body{
     width:300px;
     height:calc(100% - 110px);
     border-right:solid 1px #F0F0F0;
-    background:#F2F2F2;
+    background:#F7F7F7;
     position:absolute;
     padding:30px
 }
@@ -54,15 +54,40 @@ html,body{
     font-size:12px;
 }
 
+.UserInfo .UsernameInfo .firstlast span{
+    float:left;
+}
+
+.UserInfo .UsernameInfo .firstlast .last{
+    margin-left:5px;
+}
+
 .AppCounts .counts{
-    padding:0;
+    padding:10px;
     margin:0;
     list-style:none;
 }
 
 .AppCounts .counts li{
     float:left;
-    width:33%;
+    width:31%;
+    background:red;
+    height:50px;
+    margin-left:8px;
+    position:relative;
+}
+
+.AppCounts .counts li:first-child{
+    margin-left:0px;
+}
+
+.AppCounts .counts li span{
+    position:absolute;
+    background:blue;
+    width:100%;
+    bottom:0px;
+    float:left;
+    text-align:center;
 }
 
 .UserInfo .UsernameInfo .UserPhoto{
@@ -110,4 +135,27 @@ html,body{
     padding:15px;
     border-top-right-radius:10px;
     border-top-left-radius:10px;
+}
+
+.UserTribes{
+    position:absolute;
+    left:350px;
+}
+
+.NavigationItems{
+    position:absolute;
+    background:red;
+    right:0px;
+}
+
+.NavigationItems ul{
+    padding:0;
+    list-style:none;
+    margin:0;
+}
+
+.NavigationItems ul li{
+    float:left;
+    background:blue;
+    padding:21px;
 }

@@ -3,6 +3,14 @@ import React, { Component } from 'react';
 import AppCounts from './AppCounts';
 
 class UserInfo extends Component {
+  constructor(props){
+    super(props);
+  }
+
+  componentDidMount(){
+    console.log(this.props.user)
+  }
+
   render() {
     return (
       <div className="UserInfo">
@@ -12,15 +20,15 @@ class UserInfo extends Component {
             </div>
             <div className="username">
                 <span>
-                  [Username]
+                  {this.props.user.username}
                 </span>
             </div>
             <div className="firstlast">
-                <span>
-                  [Firstname]
+                <span className="first">
+                  {this.props.user.firstname}
                 </span>
-                <span>
-                  [Lastname]
+                <span className="last">
+                  {this.props.user.lastname}
                 </span>               
             </div>
         </div>
