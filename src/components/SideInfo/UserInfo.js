@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import AppCounts from './AppCounts';
+
 class UserInfo extends Component {
   render() {
     return (
@@ -8,22 +10,22 @@ class UserInfo extends Component {
             <div className="UserPhoto">
                 
             </div>
-            <div className="">
+            <div className="username">
                 <span>
-     
+                  [Username]
                 </span>
             </div>
-            <div className="">
+            <div className="firstlast">
                 <span>
-
+                  [Firstname]
                 </span>
                 <span>
-
+                  [Lastname]
                 </span>               
             </div>
         </div>
         <div className="ColoredBelow">
-            
+            <AppCounts/>
         </div>
       </div>
     );

@@ -4,7 +4,9 @@ class UserMenu extends Component {
   render() {
     return (
       <div className="UserMenu">
-        
+        <div className="DarkerTitle">
+          MenuTitle
+        </div>
       </div>
     );
   }

@@ -22,7 +22,7 @@ html,body{
     width:300px;
     height:calc(100% - 110px);
     border-right:solid 1px #F0F0F0;
-    background:#FAFAFA;
+    background:#F2F2F2;
     position:absolute;
     padding:30px
 }
@@ -39,6 +39,30 @@ html,body{
     border-top-right-radius:10px;
     border-top-left-radius:10px;
     position:relative;
+}
+
+.UserInfo .UsernameInfo .username{
+    position:absolute;
+    left:100px;
+    top:20px;
+}
+
+.UserInfo .UsernameInfo .firstlast{
+    position:absolute;
+    left:100px;
+    top:40px;
+    font-size:12px;
+}
+
+.AppCounts .counts{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.AppCounts .counts li{
+    float:left;
+    width:33%;
 }
 
 .UserInfo .UsernameInfo .UserPhoto{
@@ -79,4 +103,11 @@ html,body{
     border-radius:10px;
     margin-top:15px;
     border:solid 1px #F0F0F0;
+}
+
+.SideInfo .DarkerTitle{
+    background:red;
+    padding:15px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
 }
