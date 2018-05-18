@@ -1,0 +1,82 @@
+html,body{
+    background:#F2F2F2;
+}
+
+.TopCover{
+    width:100%;
+    height:60px;
+    background:#D9851E;
+
+}
+
+.TopCover .UserInfo span{
+    color:#FFF;
+}
+
+.TopCover .UserInfo .UsernameInfo{
+    position:absolute;
+    padding:20px;
+}
+
+.SideInfo{
+    width:300px;
+    height:calc(100% - 110px);
+    border-right:solid 1px #F0F0F0;
+    background:#FAFAFA;
+    position:absolute;
+    padding:30px
+}
+
+.UserInfo{
+    border-radius:10px;
+    border:solid 1px #F0F0F0;
+}
+
+.UserInfo .UsernameInfo{
+    background:#FFF;
+    width:100%;
+    height:100px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    position:relative;
+}
+
+.UserInfo .UsernameInfo .UserPhoto{
+    width:64px;
+    height:64px;
+    background:#E8E8E8;
+    border-radius:5px;
+    margin-left:15px;
+    margin-top:15px;
+    position:absolute;
+    border:solid 1px #D4D4D4;
+}
+
+.UserInfo .ColoredBelow{
+    width:100%;
+    height:70px;
+    background:#F29422;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border:solid 1px #BD731B;
+    border-top:none;
+}
+
+.TopCover .AppTitle{
+    position:absolute;
+    padding:21px;
+}
+
+.TopCover .AppTitle .title{
+    color:#FFF;
+}
+
+.SideInfo .UserMenu{
+    position:relative;
+    height:calc(100% - 200px);
+    width:100%;
+    background:#FFF;
+    border-radius:10px;
+    margin-top:15px;
+    border:solid 1px #F0F0F0;
+}
