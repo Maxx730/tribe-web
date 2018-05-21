@@ -19,7 +19,7 @@ class UserTribes extends Component {
                 hasLoaded:true
             });
 
-            console.log(this.state)
+            console.log(this.state);
         });
     }
 
@@ -27,9 +27,26 @@ class UserTribes extends Component {
         if(this.state.hasLoaded){
             return (
                 <div className="UserTribes">
-                    <ul className="">
+                    <ul className="TribeList">
                         {this.state.tribes.map((tribe) => {
-                            return <li>{tribe._id}</li>
+                            return(
+                            <li key={tribe._id}>
+                                <div className="TribeListingHead">
+                                    <div className="">
+                                        [[Tribe Image]]
+                                    </div>
+                                    <span>{tribe.title}</span>
+                                </div>
+                                <div className="TribeDescription">
+                                    <span className="label">
+                                        Description
+                                    </span>
+                                    <span className="desc">
+                                        {tribe.description}
+                                    </span>
+                                </div>
+                            </li>
+                            )
                         })}
                     </ul>
                 </div>

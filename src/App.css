@@ -159,3 +159,40 @@ html,body{
     background:blue;
     padding:21px;
 }
+
+.UserTribes{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.UserTribes .TribeListingHead{
+    background:blue;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    padding:10px;
+}
+
+.UserTribes li{
+    float:left;
+    list-style:none;
+    margin-left:10px;
+    min-width:260px;
+    overflow:hidden;
+
+}
+
+.UserTribes .TribeDescription .label{
+    background:green;
+    width:100%;
+    float:left;
+    padding:7px;
+}
+
+.UserTribes .TribeDescription .desc{
+    float:left;
+    width:100%;
+    background:orange;
+    padding:10px;
+}
+
